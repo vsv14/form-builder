@@ -1,0 +1,155 @@
+.modal-form-field-options {
+    margin: 0;
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    background-color: rgba(0,0,0, 0.66);
+    vertical-align: middle;
+}
+
+.modal-container {
+    position: sticky;
+    min-width: 700px;
+    max-width: 900px;
+    width: 80%;
+    margin: 80px auto auto auto;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.modal-content {
+    margin: 30px 40px 50px 40px;
+}
+
+.modal-content > h2 {
+    margin: 0;
+}
+
+.modal-content .props {
+
+}
+
+.modal-content .props > hr {
+    margin-top: 30px;
+    border: none;
+    border-top: 3px solid #dddddd;
+}
+
+.modal-content .prop {
+    display: flex;
+    margin: 30px 0 0 0;
+}
+
+.modal-content .prop-array {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 0;
+}
+
+.modal-content .prop-array > .options{
+    
+}
+
+.modal-content .props .option label {
+    font-size: small;
+    font-weight: 600;
+    min-width: 100px;
+}
+
+.modal-content > .props > .prop-array > .options > .option {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.options > .option > * {
+    display: flex;
+    margin: auto 4px;
+}
+
+.options > .option > *:first-child {
+    width: 40%;
+}
+
+.options > .option > *:nth-child(2) {
+    width: 55%;
+}
+
+.options > .option > .option-value > label {
+    min-width: 40px !important;
+    width: fit-content;
+    padding-right: 5px;
+    margin-left: 10px;
+}
+
+.options > .option > * > label {
+    color: #262626;
+    margin: auto 4px;
+    height: fit-content;
+}
+
+.options > .option > * > input {
+    height: 24px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0 5px;
+    border: 1px solid #abccf0;
+}
+
+button#remove-option {
+    color: red;
+    margin: 4px 0;
+    padding: 4px 10px;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+}
+
+button#remove-option:hover {
+    background-color: #ff8b8b;
+}
+
+.options > div > button {
+    width: 100%;
+    margin-top: 15px;
+    border: 1px solid #5dbeff;
+    background-color: #ffffff;
+    font-size: medium;
+    font-weight: 700;
+    color: #5dbeff;
+    padding: 5px;
+}
+
+.options > button:hover {
+    background-color: #aed5ff;
+}
+
+.modal-content .prop > input, label{
+    margin: auto 0 auto 10px;
+}
+
+.modal-content .props label {
+    font-size: medium;
+    font-weight: 600;
+    min-width: 120px;
+    height: fit-content;
+}
+
+.modal-content .prop > input {
+    height: 24px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0 5px;
+    border: 1px solid #abccf0;
+}
+
+.modal-content .cancel-save {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}

@@ -1,0 +1,19 @@
+.main-container > .find-form-awnser {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 40px;
+    justify-content: end;
+}
+
+.main-container > .find-form-awnser > input {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #abccf0;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+
+.main-container > .find-form-awnser > button {
+    margin: 20px 0 0 auto;
+}

@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  margin: 0;
+  position: relative;
+  min-width: 900px;
+}
+
+.App * {
+  margin: 4px;
+}
+
+.main-container {
+  display: flex;  
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.builder-container {
+
+}
+
+.tools-sidebar {
+  padding: 20px 10px;
+  min-width: 200px;
+  height: fit-content;
+  border-radius: 5px 0 0 5px;
+  margin: 0;
+}
+
+.tools-sidebar > p {
+  margin-bottom: 20px;
+  font-size: small;
+  font-weight: 600;
+}
+
+.elements-container {
+  margin: 10px 5px;
+}
+
+.elements-container > .element {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 40px;
+  background-color: #007bff;
+  color: white;
+  font-size: small;
+  font-weight: 700;
+  padding: 0 10px;
+  border-radius: 5px;
+  cursor: move;
+}
+
+.element > * {
+  display: block;
+  margin: auto 5px;
+  height: fit-content;
+}
+
+.element > img {
+  width: 16px;
+  height: 16px;
+}
+
+.form-constructor {
+  min-width: 600px;
+  width: 100%;
+  margin: 0;
+  border-left: 2px solid #ccc;
+  border-right: 2px solid #ccc;
+}
+
+.controll-panel {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-container button {
+  margin: 0px;
+  border: none;
+  width: 160px;
+  padding: 10px 35px;
+  font-size: medium;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 250ms;
+  background-color: #fff;
+  border: 2px solid #c9c9c9;
+}
+
+.main-container button:hover {
+  background-color: #ececec;
+}
+
+.main-container button#form-save {
+  border: 1px solid #7fccff;
+}
+
+.main-container button#form-save:hover {
+  background-color: #7fccff;
+}
+
+.main-container button.save {
+  border: 1px solid #7fccff;
+}
+
+.main-container button.save:hover {
+  background-color: #7fccff;
+}
+
+.border-success {
+  border: 2px solid #7fccff;
+  border-radius: 5px;
+}
+
+.json-schema {
+  display: flex;
+  flex-direction: column;
+  margin: 60px 30px;
+  background-color: #dbdbdb;
+  border: 1px solid #bababa;
+}
+
+.json-schema * {
+  border: none;
+}
+
+.json-schema > h3 {
+  margin: 0;
+  padding: 10px;
+  background-color: white;
+}
+
+.json-schema > pre {
+  color: rgb(255, 217, 0);
+  min-width: 300px;
+  width: fit-content;
+  background-color: rgb(35, 35, 35);
+  border: 1px solid silver;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+pre > div > span {
+  margin-top: 4px;
+} button:hover {
+  cursor: pointer;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+textarea:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "62e508df82f11f76399d0366"
+  },
+  "form_uuid": "b90ac9b8-58f0-579b-ba98-388441ade888",
+  "formSchema": "{\"name\":\"TEST FORM #1\",\"items\":[{\"field\":{\"type\":\"textField\",\"label\":\"Name\",\"description\":\"\",\"className\":\"\"},\"props\":{\"placeholder\":\"First and Last Name\",\"defaultValue\":\"\",\"maxLength\":\"128\"}},{\"field\":{\"type\":\"textField\",\"label\":\"What position are you applying for?\",\"description\":\"Indicate the position that is indicated in the vacancy\",\"className\":\"\"},\"props\":{\"placeholder\":\"example: Backnd Developer Node.js\",\"defaultValue\":\"\",\"maxLength\":\"128\"}},{\"field\":{\"type\":\"select\",\"label\":\"Work format\",\"description\":\"Choose from below\",\"className\":\"\"},\"props\":{\"options\":[{\"nameOption\":\"no selected\",\"value\":\"\"},{\"nameOption\":\"Office\",\"value\":\"value-1\"},{\"nameOption\":\"Remote\",\"value\":\"value-2\"}]}},{\"field\":{\"type\":\"textArea\",\"label\":\"Availability of pet projects\",\"description\":\"List projects and provide links to them\",\"className\":\"\"},\"props\":{\"placeholder\":\"Text Area ...\",\"defaultValue\":\"\",\"maxLength\":\"512\",\"rows\":\"10\"}},{\"field\":{\"type\":\"textField\",\"label\":\"Your contact email\",\"description\":\"\",\"className\":\"\"},\"props\":{\"placeholder\":\"example: kl616@gmail.com\",\"defaultValue\":\"\",\"maxLength\":\"128\"}}]}",
+  "createAt": {
+    "$date": {
+      "$numberLong": "1659177183643"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62e56c2313259b5bbf1715f4"
+  },
+  "form_uuid": "36d0dc6b-5c26-5e40-bf69-77c3a24e8b00",
+  "formSchema": "{\"name\":\"default NoName\",\"items\":[{\"field\":{\"type\":\"textField\",\"label\":\"Text Field\",\"description\":\"default description\",\"className\":\"\"},\"props\":{\"placeholder\":\"Text Field\",\"defaultValue\":\"\",\"maxLength\":\"128\"}},{\"field\":{\"type\":\"textArea\",\"label\":\"Text Area\",\"description\":\"default description\",\"className\":\"\"},\"props\":{\"placeholder\":\"Text Area ...\",\"defaultValue\":\"\",\"maxLength\":\"512\",\"rows\":\"10\"}},{\"field\":{\"type\":\"textField\",\"label\":\"Text Field\",\"description\":\"default description\",\"className\":\"\"},\"props\":{\"placeholder\":\"Text Field\",\"defaultValue\":\"\",\"maxLength\":\"128\"}},{\"field\":{\"type\":\"select\",\"label\":\"Select\",\"description\":\"default description\",\"className\":\"\"},\"props\":{\"options\":[{\"nameOption\":\"no selected\",\"value\":\"\"},{\"nameOption\":\"Name option-1\",\"value\":\"value-1\"},{\"nameOption\":\"Name option-2\",\"value\":\"value-2\"}]}}]}",
+  "createAt": {
+    "$date": {
+      "$numberLong": "1659202595470"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62e67f04777c60be37a595ba"
+  },
+  "form_uuid": "4534a6ae-839e-5c2c-aa74-be0bac95ee3d",
+  "formSchema": "{\"name\":\"DEFAULT FORM NAME\",\"items\":[{\"field\":{\"type\":\"textField\",\"label\":\"Text Field\",\"description\":\"default description\",\"className\":\"\"},\"props\":{\"placeholder\":\"Text Field\",\"defaultValue\":\"\",\"maxLength\":\"128\"}},{\"field\":{\"type\":\"textArea\",\"label\":\"Text Area\",\"description\":\"default description\",\"className\":\"\"},\"props\":{\"placeholder\":\"Text Area ...\",\"defaultValue\":\"\",\"maxLength\":\"512\",\"rows\":\"10\"}},{\"field\":{\"type\":\"select\",\"label\":\"Select\",\"description\":\"default description\",\"className\":\"\"},\"props\":{\"options\":[{\"nameOption\":\"no selected\",\"value\":\"\"},{\"nameOption\":\"Name option-1\",\"value\":\"value-1\"},{\"nameOption\":\"Name option-2\",\"value\":\"value-2\"}]}},{\"field\":{\"type\":\"select\",\"label\":\"Select\",\"description\":\"default description\",\"className\":\"\"},\"props\":{\"options\":[{\"nameOption\":\"no selected\",\"value\":\"\"},{\"nameOption\":\"Name option-1\",\"value\":\"value-1\"},{\"nameOption\":\"Name option-2\",\"value\":\"value-2\"}]}},{\"field\":{\"type\":\"textField\",\"label\":\"Text Field\",\"description\":\"default description\",\"className\":\"\"},\"props\":{\"placeholder\":\"Text Field\",\"defaultValue\":\"\",\"maxLength\":\"128\"}}]}",
+  "createAt": {
+    "$date": {
+      "$numberLong": "1659272964612"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62e69c6bd9797f0bcfa497d3"
+  },
+  "form_uuid": "7aabaa34-30c9-5058-893d-3ff288b9eb6d",
+  "formSchema": "{\"name\":\"Форма 1\",\"items\":[{\"field\":{\"type\":\"textField\",\"label\":\"Ваш email\",\"description\":\"\",\"className\":\"\"},\"props\":{\"placeholder\":\"example: email@gmail.com\",\"defaultValue\":\"\",\"maxLength\":\"128\"}},{\"field\":{\"type\":\"select\",\"label\":\"Как часто хотите получать рассылку?\",\"description\":\"выберете из предложенных вариантов\",\"className\":\"\"},\"props\":{\"options\":[{\"nameOption\":\"no selected\",\"value\":\"\"},{\"nameOption\":\"1 раз в неделю\",\"value\":\"value-1\"},{\"nameOption\":\"1 раз в месяц\",\"value\":\"value-2\"},{\"nameOption\":\"не хочу\",\"value\":\"value-3\"}]}},{\"field\":{\"type\":\"textArea\",\"label\":\"Как посмотреть ответы? Где статистика? Как получить ответы на почту?\",\"description\":\"\",\"className\":\"\"},\"props\":{\"placeholder\":\"Text Area ...\",\"defaultValue\":\"Просто откройте вкладку “Ответы”, чтобы полюбоваться на красивые диаграммы, которые весьма помогают при принятии решений.\",\"maxLength\":\"512\",\"rows\":\"10\"}}]}",
+  "createAt": {
+    "$date": {
+      "$numberLong": "1659280491336"
+    }
+  },
+  "__v": 0
+}]

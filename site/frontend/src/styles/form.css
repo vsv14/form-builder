@@ -1,0 +1,127 @@
+.form-uuid {
+    text-align: end;
+    margin: 20px 30px 0 30px;
+    cursor: pointer;
+}
+
+
+.form-uuid > span {
+    margin: 0;
+    color: #848484;
+}
+
+.form-uuid > span:hover {
+  color: #008cd8;
+}
+
+.container {
+    position: relative;
+    margin: 20px 30px;
+    background-color: #fff;
+    padding: 30px 30px 40px;
+    box-shadow: 2px 5px 10px 5px #ccc;
+  }
+
+.form-header {
+    display: flex;
+    height: 30px;
+    padding:  10px 10px 15px 10px;
+    justify-content: space-between;
+  }
+  
+  .form-header > img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .form-header > img:hover {
+    cursor: pointer;
+  }
+  
+  .form-header > h4 {
+    margin: auto 0;
+    height: fit-content;
+  }
+
+.container > form {
+    min-height: 900px;
+  }
+  
+  form > .form-field {
+    position: relative;
+    margin: 0;
+    padding: 5px 10px;
+    transition: 200ms;
+  }
+  
+  form > .form-field:hover {
+    background-color: #e3f2ff;
+  }
+  
+  form > .form-field span {
+    background-color: #f0fbff;
+    border: 1px solid #d7f5ff;
+    color: #454545;
+    font-size: smaller;
+    padding: 8px;
+    border-radius: 4px;
+  }
+
+  form > .form-field-view span {
+    background-color: #f0fbff;
+    border: 1px solid #d7f5ff;
+    color: #454545;
+    font-size: smaller;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .form-field-edit > img {
+    margin: 0 4px;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .form-field-edit > img:hover {
+    cursor: pointer;
+    border: 1px solid #a2b3bc;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #cccccc;
+  }
+
+  .contact-details > label {
+    font-size: small;
+    font-weight: 600;
+    margin: 4px 13px;
+  }
+
+  .contact-details > input {
+    width: 30%;
+    min-width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #abccf0;
+    padding: 0 10px;
+    margin: 5px 13px;
+  }
+
+
+ .contact-details > button {
+  margin-top: 60px;
+    width: 100%;
+    font-weight: 500;
+  }
+
+
+  .date-create {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    text-align: end;
+  }

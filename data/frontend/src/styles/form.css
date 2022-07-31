@@ -1,0 +1,89 @@
+.form-uuid {
+    text-align: end;
+    margin: 20px 30px 0 30px;
+    cursor: pointer;
+}
+
+
+.form-uuid > span {
+    margin: 0;
+    color: #848484;
+}
+
+.form-uuid > span:hover {
+  color: #008cd8;
+}
+
+.container {
+    min-height: 200px;
+    margin: 20px 30px;
+    background-color: #fff;
+    padding: 30px;
+    padding-bottom: 40px;
+    box-shadow: 2px 5px 10px 5px #ccc;
+  }
+
+.form-header {
+    display: flex;
+    height: 30px;
+    padding:  10px 10px 15px 10px;
+    justify-content: space-between;
+  }
+  
+  .form-header > img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .form-header > img:hover {
+    cursor: pointer;
+  }
+  
+  .form-header > h4 {
+    margin: auto 0;
+    height: fit-content;
+  }
+
+.container > form {
+    min-height: 900px;
+  }
+  
+  form > .form-field {
+    position: relative;
+    margin: 0;
+    padding: 5px 10px;
+    transition: 200ms;
+  }
+  
+  form > .form-field:hover {
+    background-color: #e3f2ff;
+  }
+  
+  form > .form-field span {
+    background-color: #f0fbff;
+    border: 1px solid #d7f5ff;
+    color: #454545;
+    font-size: smaller;
+    padding: 8px;
+    border-radius: 4px;
+  }
+
+  form > .form-field-view span {
+    background-color: #f0fbff;
+    border: 1px solid #d7f5ff;
+    color: #454545;
+    font-size: smaller;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .form-field-edit > img {
+    margin: 0 4px;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .form-field-edit > img:hover {
+    cursor: pointer;
+    border: 1px solid #a2b3bc;
+  }
